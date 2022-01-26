@@ -3,26 +3,65 @@
 <!--web sitesinin hangi dilde değerlendirileceğini belirttim.-->
 <html lang="tr">
 <!--body etiketini açtım.-->
+
 <body>
     <!--adımı belirten başlık etiketini girdim.-->
-    <h1>Sefa Özdemir</h1><br>
+    <h1>Sefa Özdemir</h1>
 
-    <h3>Hakkımda</h3><br>
+    <h3>Hakkımda</h3>
     <!--hakkımda bilgi verdiğim paragraf etiketini girdim.-->
     <p>Merhaba. Ben M. Sefa Özdemir, Sakarya'da yaşıyorum. Çizim defterime karalama yapmayı ve korku-gerilim türü film ve dizi izlemeyi çok seviyorum. Büyük bir Friends hayranıyım. Şu anda bilgisayar mühendisliği bölümü 1.sınıf öğrencisiyim ve uzmanlaşmak istediğim alanı keşfetmek amacıyla bu programa katılarakkendimi denemek istedim. şu ana kadar her şey güzel ilerliyor. Teşekkürler.</p><br>
+    <!--ilgi alanlarım bölümünü tek bir blok olması için div etiketi içine aldım.-->
+    <div>
+        <h3>İlgi Alanlarım</h3>
+        <!--ilgi alanlarım başlığından sonra sıralı liste etiketini kullandım.-->
+        <ol>
+            <li>Film
+                <!--sıralı liste etiketlerinin her birinin ayrı birer sırasız liste olması için sırasız liste etiketini kullandım.-->
+                <ul>
+                    <li>The Shining</li>
+                    <li><a href="https://www.imdb.com/title/tt0117571/">Scream(1996)</a></li>
+                    <li>The Matrix trilogy</li>
+                    <li>The Devils Advocate</li> 
+                </ul>
+            </li>
+
+            <li>Dizi
+                <ul>
+                    <li><a href="https://www.imdb.com/title/tt0108778/">Friends</a></li><!--inline elemanlardan biri olan a etiketini kullanarak sevdiğim dizilerden birine link atadım.-->
+                    <li>Merlin</li>
+                    <li>Game Of Thrones</li>
+                    <li>Archive 81</li>
+                </ul>
+            </li>
+
+            <li>Kitap
+                <ul>
+                    <li><a href="https://www.goodreads.com/book/show/9617710-la-psichiatra?from_choice=false&from_home_module=false">Psikiyatrist</a></li>
+                    <li>Travma</li>
+                    <li>Fobi</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
     <!--sevdiğim diziler başlığını girdim.-->
-    <h2>Sevdiğim Diziler</h2><br>
-    <!--sevdiğim dizileri sırasız bir listede belirttim ve paragraflarla dizilere açıklamalar girdim.-->
-    <ul>
-        <li>Friends</li><br>
-        <p>Friends dizisi günümüzde halen daha izlenilen ve 20'li yaşlarında herbiri birbirinden farklı olan 3 kadın ve 3 erkek karakterden oluşan 6 gencin New York'ta yaşamakta oldukları komik, eğlenceli ve aynı zamanda hayat dolu olan maceralarını anlatmaktadı.</p>
-        <p>Friends'in beni etkileyen yönü gerçek hayata bağlı kalarak komediyi sürdürebilmesi. Günümüzde artık senaryolar oldukça gerçek dışı.</p><br>
-    
-        <li>Archive 81</li><br>
-        <p>Archive 81 gerilim türünde kurgusu oldukça sürükleyici bir dizi. Dizi eski satanistik bir tarikatın hala canlı olduğunu keşfeden bir belgesel yapımcısı ile başlıyor ve bir yangında zarar gören kasetlerin restore edilmesiyle uzun zaman sonra tekrar gün yüzüne çıkarılmasıyla ilgili.</p>
-        <p>Dizinin beni etkileyen yanı tabi ki gerilimi seyirciye iyi yansıtmaları ve paranormal olaylardan faydalanmaları.</p><br>
-    </ul>
-    <!--sırasız listeyi kapattım.-->
+
+    <div><!--sevdiğim dizilerden bahsettiğim bölümün ayrı bir blok olması için div etiketi içine aldım.-->
+        <h2>Sevdiğim Diziler</h2><br>
+        <!--sevdiğim dizileri sırasız bir listede belirttim ve paragraflarla dizilere açıklamalar girdim.-->
+        <ul>
+            <li>Friends</li>
+            <p>Friends dizisi günümüzde halen daha izlenilen ve 20'li yaşlarında herbiri birbirinden farklı olan 3 kadın ve 3 erkek karakterden oluşan 6 gencin New York'ta yaşamakta oldukları komik, eğlenceli ve aynı zamanda hayat dolu olan maceralarını anlatmaktadı.</p>
+            <p>Friends'in beni etkileyen yönü gerçek hayata bağlı kalarak komediyi sürdürebilmesi. Günümüzde artık senaryolar oldukça gerçek dışı.</p><br>
+            <img src="https://m.media-amazon.com/images/M/MV5BZDc2NTg5YWUtZGZlZC00Y2VmLTgwZjEtZDUxM2QyNGRmYjZlXkEyXkFqcGdeQWFybm8@._V1_QL75_UX500_CR0,0,500,281_.jpg" alt="Friends ana karakterler.">
+            <br>
+            <li>Archive 81</li>
+            <p>Archive 81 gerilim türünde kurgusu oldukça sürükleyici bir dizi. Dizi eski satanistik bir tarikatın hala canlı olduğunu keşfeden bir belgesel yapımcısı ile başlıyor ve bir yangında zarar gören kasetlerin restore edilmesiyle uzun zaman sonra tekrar gün yüzüne çıkarılmasıyla ilgili.</p>
+            <p>Dizinin beni etkileyen yanı tabi ki gerilimi seyirciye iyi yansıtmaları ve paranormal olaylardan faydalanmaları.</p><br>
+            <img src="https://www.fuoriseries.com/wp-content/uploads/2021/12/archive-81-1920x1080-1.jpg" alt="Archive 81 kapak fotoğrafı." style="width: 500px;height: 281px;"><!--sevdiğim dizilerden birine alt özelliği ile açıklaması olan bir fotoğraf ekledim ve style özelliğiyle boyutunu ayarladım.-->
+        </ul>
+        <!--sırasız listeyi kapattım.-->
+    </div>
 </body>
 <!--body etiketini kapattım.-->
 </html>
